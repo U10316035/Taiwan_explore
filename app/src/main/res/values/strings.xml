@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">台灣探險家</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">登記座標</string>
+
+    <string name="modify">修改</string>
+    <string name="delete">刪除</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/noteimage"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:maxLength="28"
+        android:id="@+id/inputText"
+        android:singleLine="true"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="42sp"
+        android:paddingBottom="35sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listInputText"
+        android:stackFromBottom = "true"
+        android:transcriptMode="alwaysScroll"
+
+        >
+    </ListView>
+</LinearLayout>
